@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat&family=Poppins&display=swap');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar{
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight:  700;
+    letter-spacing: 0.2rem;
+    background: rgba(0,0,0,0.6) !important;
+    padding: 20px 0;
+
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: #fff;
+    padding-left: 20px;
+}
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: orange;
+}
+
+.heading-content{
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    max-width: 100%;
+}
+.heading-content h5{
+    font-size: 4em;
+    font-weight: 300;
+    color:orangered;
+    
+
+}
+.heading-content h1{
+    font-size: 5em;
+    font-weight: bolder;
+    color : #fff;
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+.heading-content p{
+    font-size: 1em;
+    font-weight: lighter;
+    color : black;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    
+}
+.heading-content{
+    margin: 0 80px;
+}
+
+/* about section style */
+
+#about .btn{
+    border : 2px solid orangered;
+    width: 40%;
+    padding: 15px 22px;
+    background: orangered;
+    border-radius: 70px;
+    margin-top: 10px;
+}
+button .masti{
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+
+}
+#about .btn:hover{
+    border : 2px solid rebeccapurple;
+    width: 40%;
+    padding: 15px 22px;
+    background: rebeccapurple;
+    border-radius: 70px;
+    margin-top: 10px;
+}
+#about .display-4{
+    margin: 60px;
+}
+button #btn2{
+    padding : 16px 230px;
+    background-color: orangered;
+    color: #fff;
+    border-radius: 70px;
+    font-size: 17px;
+    text-decoration: none;
+}
+button #btn2:hover{
+    padding : 16px 230px;
+    background-color: rebeccapurple;
+    color: #fff;
+    border-radius: 70px;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.sec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #f8fafb;
+    padding-bottom: 60px;
+}
+.sec1 h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 50px;
+}
+
+/* footer */
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #363f3d !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
+#footer .mamun{
+    color: #fff;
+    font-weight: lighter !important;
+    font-size: 16px;
+    line-height: 30px;
+}
+#footer .sao{
+    color: #fff;
+}
